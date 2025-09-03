@@ -1,0 +1,38 @@
+# 代码所有者配置文件
+# 定义代码审查的默认审查者
+# 更多信息: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# 全局代码所有者
+* @your-username
+
+# 后端代码
+/backend/ @backend-team @your-username
+
+# 前端代码  
+/frontend/ @frontend-team @your-username
+
+# API 相关
+/backend/app/api/ @api-team @your-username
+
+# 推荐引擎
+/backend/app/services/recommendation_engine.py @algorithm-team @your-username
+
+# 配置文件
+/backend/app/core/config.py @devops-team @your-username
+docker-compose.yml @devops-team @your-username
+Dockerfile @devops-team @your-username
+
+# 文档
+*.md @docs-team @your-username
+/docs/ @docs-team @your-username
+
+# CI/CD
+/.github/ @devops-team @your-username
+
+# 安全相关
+SECURITY.md @security-team @your-username
+/backend/app/services/zishu_api.py @security-team @your-username
+
+# 测试
+/backend/tests/ @qa-team @your-username
+/frontend/tests/ @qa-team @your-username

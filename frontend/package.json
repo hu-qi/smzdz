@@ -1,0 +1,33 @@
+{
+  "name": "what-to-do-agent-frontend",
+  "version": "1.0.0",
+  "description": "什么值得做智能体前端组件",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "axios": "^1.5.0",
+    "element-plus": "^2.3.14",
+    "@element-plus/icons-vue": "^2.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.6",
+    "typescript": "^5.2.2",
+    "vue-tsc": "^1.8.8"
+  },
+  "keywords": [
+    "vue",
+    "recommendation",
+    "zishu",
+    "agent"
+  ],
+  "author": "What To Do Agent Team",
+  "license": "MIT"
+}
